@@ -37,25 +37,3 @@ else
     exit 1
     echo -e "__________________________________________________                             ";
 fi
-
-# if [[ "$1" = 'https' ]]; then
-#
-# if [[ $3 = 'change' ]]; then
-# ssh -R 443:localhost:$2 `echo -n $(date) | md5sum | cut -c1-8`@$SERVEO_HOST
-# elif [[ "$3" -gt "1" ]]; then
-# ssh -R $3:localhost:$2 $SERVEO_HOST
-# else [[ $3 = 0 ]];
-# ssh -R 443:localhost:$2 $SERVEO_HOST
-# fi
-# echo -e "__________________________________________________                             ";
-# fi
-#
-# if [[ "$1" = 'tcp' ]]; then
-#
-# if [[ "$3" -gt "1" ]]; then
-# ssh -R $3:localhost:$2 $SERVEO_HOST
-# else [[ $3 = 0 ]];
-# ssh -R 0:localhost:$2 $SERVEO_HOST
-# fi
-# echo -e "__________________________________________________                             ";
-# fi
