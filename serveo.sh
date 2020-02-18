@@ -1,5 +1,5 @@
 #!/bin/bash
-SERVEO_HOST=${SERVEO_HOST:-'primo'}
+SERVEO_HOST=${SERVEO_HOST:-'serveo.net'}
 
 if [ "$1" == "https" ] || [ "$1" == "http" ]
 then
