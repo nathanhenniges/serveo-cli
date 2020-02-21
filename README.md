@@ -1,7 +1,5 @@
 <!-- ![GitHub release](https://img.shields.io/github/release/nathanhenniges/serveo-cli-mrdemonwolf-me.svg?style=for-the-badge) -->
 [![GitHub last commit](https://img.shields.io/github/last-commit/nathanhenniges/serveo-cli.svg?logo=git&style=for-the-badge)](https://github.com/nathanhenniges/serveo-cli)
-[![Trello](https://img.shields.io/badge/Project%20Progress-blue?style=for-the-badge&logo=trello)](https://trello.com/b/uljnYGOg "Follow the project progress here.")
-![Travis (.com)](https://img.shields.io/travis/com/nathanhenniges/serveo-cli?style=for-the-badge)
 # What is this?
 Simple bash script which can be added to your alises to allow you to forward ports from localhost to the web via serveo.net or self hosted version of serveo.
 
