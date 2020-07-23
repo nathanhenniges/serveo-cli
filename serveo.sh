@@ -64,7 +64,7 @@ then
         fi
     else
         port_is_ok $2
-        ssh -o LogLevel=QUIET -R 443:localhost:$2 `echo -n $(date) | md5sum | cut -c1-8`@$SERVEO_HOST
+        ssh -o LogLevel=QUIET -R 443:localhost:$2 `echo -n $(date) | md5sum | cut -c1-12`@$SERVEO_HOST
     fi
 elif [[ $1 == 'tcp' ]]
 then
